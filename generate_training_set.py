@@ -3,9 +3,9 @@ import pandas as pd
 
 # Parameters for the dataset
 w = -500.0  # Slope
-b = -68.0  # Intercept
-num_points = 100  # Number of data points
-noise_factor = 5.0  # Noise level
+b = -1800.0  # Intercept
+num_points = 500  # Number of data points
+noise_factor = 500.0  # Noise level
 
 # Generate the dataset
 x = np.linspace(0, 10, num_points)
