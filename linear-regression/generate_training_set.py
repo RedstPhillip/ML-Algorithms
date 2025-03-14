@@ -2,12 +2,12 @@ import numpy as np
 import pandas as pd
 
 # Parameters for the dataset
-num_features = 3         # Number of input features
-num_points = 2        # Number of data points
+num_features = 2         # Number of input features
+num_points = 100        # Number of data points
 feature_range = (0, 10)  # Range for feature values (min, max)
-weights = np.random.uniform(-500, 500, num_features)  # Random weights (slopes)
+weights = np.random.uniform(100, 100, num_features)  # Random weights (slopes)
 bias = -2000.0           # Intercept
-noise_factor = 500.0     # Noise level
+noise_factor = 10.0     # Noise level
 
 # Generate the dataset
 np.random.seed(42)  # For reproducibility
